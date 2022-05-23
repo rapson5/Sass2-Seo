@@ -1,0 +1,40 @@
+header {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.logo {
+  float: left;
+  color: steelblue;
+}
+
+span {
+  color: white;
+}
+
+.nav {
+  float: right;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+
+a:hover {
+  color: steelblue;
+}

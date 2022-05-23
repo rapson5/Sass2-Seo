@@ -1,0 +1,15 @@
+//extend//
+.card {
+	@extend .ucard;
+	> img {
+		@extend .avatar;
+		max-width: 300px;
+		text-align: center;
+	}
+	> h2 {
+		@extend .title1;
+	}
+	> small {
+		@extend .small
+	}
+}

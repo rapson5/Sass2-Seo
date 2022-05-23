@@ -1,0 +1,38 @@
+@import "reseteo";
+@import "header";
+@import "html";
+@import "main";
+@import "footer";
+@import "base";
+//map//
+$headings: (
+  h1: 4em,
+  h2: 3em,
+  h3: 2em,
+  h4: 1em,
+  h5: 0.75em,
+  h6: 0.35em,
+  );
+
+$h1: map-get($headings, h1);
+
+h1{
+  font-size: $h1;
+}
+/////MIXIN/////
+@mixin cuadrado{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  margin-top: 5px;
+  padding: 10px;
+}
+.cuadrado-1{
+  @include cuadrado;
+}
+.cuadrado-2{
+  @include cuadrado;
+}
+.cuadrado-3{
+  @include cuadrado;
+}
